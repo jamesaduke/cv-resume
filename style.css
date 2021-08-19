@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper{
+    position:relative;
+    max-width: 1000px;
+    width:100%;
+    min-height: 1000px;
+    background: #fff;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.left{
+    position:relative;
+    background: #B59564;
+    padding: 45px;
+}
+
+.name-prof{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 15px;
+}
+
+.name-prof h2{
+    font-size: 1.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.name-prof h6{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.contact{
+    padding: 22px;
+}
+
+.contact h4{
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contact ul{
+    position:relative;
+}
+
+.contact ul li{
+    list-style: none;
+    position:relative;
+    margin-top: 10px;
+}
+
+.icon{
+    margin-right: 7px;
+    font-size: 1em;
+}
+
+.icon-p{
+    display: inline;
+    font-size: 0.8em;
+}
