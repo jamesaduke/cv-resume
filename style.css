@@ -53,11 +53,11 @@ body{
     font-weight: 300;
 }
 
-.contact{
+.contact, .skills{
     padding: 22px;
 }
 
-.contact h4{
+.contact h4, .skills-title{
     font-weight: 600;
     color: #fff;
     text-transform: uppercase;
@@ -67,7 +67,7 @@ body{
     position:relative;
 }
 
-.contact ul li{
+.contact ul li, .skills-item li{
     list-style: none;
     position:relative;
     margin-top: 10px;
