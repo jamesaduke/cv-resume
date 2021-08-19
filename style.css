@@ -115,6 +115,26 @@ body{
 
 .description h4{
     text-transform: uppercase;
-    color: #2a7da2;
-    /* font-size: 15px; */
+    color: #45A2BE; 
+}
+
+footer{
+    display: block;
+    width: 100%;
+    margin-top: 0.5em;
+}
+@media (max-width: 1000px){
+    .wrapper{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .experience-title{
+        flex-direction: column;
+    }
+    .duration{
+        margin-bottom: 5px;
+    }
 }
