@@ -118,10 +118,8 @@ body{
     color: #45A2BE; 
 }
 
-footer{
-    display: block;
-    width: 100%;
-    margin-top: 0.5em;
+.link-resources{
+    margin-top: 5em;
 }
 @media (max-width: 1000px){
     .wrapper{
